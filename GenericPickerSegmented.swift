@@ -1,10 +1,10 @@
 //
 //  PickerSegmented.swift
-//  AnimalBook
 //
 //  Created by Hiral Jotaniya on 13/11/24.
 //
 
+import SwiftUI
 
 struct PickerSegmented<P>: View  where P: CustomStringConvertible & CaseIterable & Hashable{
         //tag and selection must match types exactly
